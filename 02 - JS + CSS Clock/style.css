@@ -34,9 +34,25 @@ body {
 }
 
 .hand {
-  width: 50%;
   height: 6px;
   background: black;
   position: absolute;
+  transform-origin: center right;
   top: 50%;
+  right: 50%;
+  transition: all 0.15s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+  text-align: right;
+}
+
+.hour-hand {
+  width: 25%;
+}
+
+.min-hand {
+  width: 40%;
+}
+
+.second-hand {
+  width: 45%;
 }
